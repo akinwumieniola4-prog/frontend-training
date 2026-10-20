@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project 03 — Show & Hide</title>
+    <link rel="stylesheet" href="show&hide.css" />
+  </head>
+  <body>
+    <div class="card">
+      <span class="project-label">Project 03</span>
+
+      <h1 class="title">Show & Hide</h1>
+
+      <p class="subtitle">
+        Click the button to hide and show the panel below.
+        This pattern is used in every website — menus,
+        dropdowns, modals, accordions.
+      </p>
+
+      <!-- Toggle button — its text also changes -->
+      <button id="toggle-btn" class="btn">Hide the Panel</button>
+
+      <!-- This panel will be shown and hidden -->
+      <div id="panel" class="panel">
+        <p class="panel-title">I am the panel 👋</p>
+        <p class="panel-text">
+          I can be shown and hidden by JavaScript.
+          When I am hidden, I take up no space on the page.
+          When shown, I slide back into view.
+        </p>
+        <ul class="panel-list">
+          <li>JavaScript found me with querySelector</li>
+          <li>It set my display to "none" to hide me</li>
+          <li>It set my display to "block" to show me</li>
+        </ul>
+      </div>
+
+      <!-- Second demo — using classList instead -->
+      <div class="divider">
+        <span>Second Method — Using classList</span>
+      </div>
+
+      <button id="class-btn" class="btn btn-green">Toggle with classList</button>
+
+      <div id="panel-2" class="panel panel-green">
+        <p class="panel-title">I use classList.toggle()</p>
+        <p class="panel-text">
+          Instead of setting display directly, JavaScript adds
+          and removes a CSS class called "hidden".
+          The CSS class is what does the hiding.
+          This is the preferred professional method.
+        </p>
+      </div>
+
+      <div class="explain-box">
+        <p class="explain-title">Two methods compared</p>
+        <p class="explain-text">
+          <code>element.style.display = "none"</code> — JavaScript writes the style directly.<br/><br/>
+          <code>element.classList.toggle("hidden")</code> — JavaScript adds/removes a class.
+          The CSS class <code>.hidden { display: none }</code> does the actual hiding.
+          The second method keeps style in CSS where it belongs.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

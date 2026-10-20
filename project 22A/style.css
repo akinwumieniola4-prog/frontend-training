@@ -1,0 +1,141 @@
+body {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+   background-color: #0f0f1a; 
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 100%;
+   background-color: #1a1a2e;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid  #0f0f1a; 
+  box-shadow: 10px #2a2a45;
+}
+
+.project {
+  background-color: rgba(245,166,35,0.12);
+  width: 200px;
+  color: #f5a623;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #f5a623
+}
+
+h1 {
+  font-size: 42px;
+  margin: 22px ;
+}
+
+.text {
+  color: lightgray;
+  margin-bottom: 25px;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 14px;
+  background-color: #0d0d1a;
+   border: 2px solid #2a2a45;
+    border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #0d0d1a; 
+  border: 2px solid #2a2a45; 
+  border-radius: 12px;
+  color: lightgray;
+  font-size: 18px;
+}
+
+
+.result-box {
+  margin-top: 20px;
+  background-color: #0d0d1a; 
+  border: 2px solid #2a2a45;
+   border-radius: 12px;
+  border: 1px solid  #2a2a45;
+  padding: 18px;
+}
+
+.result-title {
+  color:  #5a5a7a;
+  font-size: 13px;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #0d0d1a; 
+  border: 2px solid #2a2a45; 
+  border-radius: 14px;
+  border: 1px solid  #2a2a45;
+  padding: 22px;
+  text-align: center;
+}
+
+.card h2 {
+color: #3ecfa0;
+  font-size: 40px;
+}
+
+.card p {
+  color: gray;
+  font-size: 13px;
+}
+
+.info-box {
+  margin-top: 22px;
+   background-color: rgba(62,207,160,0.06);
+    border: 1px solid rgba(62,207,160,0.2);
+    border-radius: 12px;
+  padding: 20px;
+}
+
+.info-box h2 {
+  color: #3ecfa0;
+}
+
+.info-box p {
+  color: gray;
+}
+
+pre {
+  padding: 14px;
+  border-radius: 10px;
+}
+
+code {
+  background-color: #0d0d1a;
+   color: #3ecfa0;
+  font-size: 16px;
+}

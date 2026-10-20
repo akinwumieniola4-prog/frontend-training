@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project 07 — Hover Effects</title>
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+         PROJECT 07 — HOVER EFFECTS WITH JAVASCRIPT
+         CONCEPT: mouseover / mouseout events
+         =====================================================
+         WHAT STUDENTS LEARN:
+         - mouseover fires when mouse enters an element
+         - mouseout fires when mouse leaves an element
+         - The difference between CSS :hover and JS hover
+         - Why use JS hover: dynamic values, counters,
+           triggering effects on OTHER elements
+    ===================================================== -->
+
+    <div class="card">
+      <span class="project-label">Project 07</span>
+      <h1 class="title">Hover Effects</h1>
+      <p class="subtitle">
+        CSS can do basic hover. JavaScript hover lets you
+        trigger effects on OTHER elements and track data.
+      </p>
+
+      <!-- Demo 1: Hover to reveal info -->
+      <div class="demo-section">
+        <p class="demo-label">Hover over each card</p>
+        <div class="hover-grid">
+          <div class="hover-card" data-info="JavaScript was created in 1995 by Brendan Eich in just 10 days." data-color="#4f8ef7">
+            <p class="hover-card-title">JavaScript</p>
+            <p class="hover-card-sub">Hover to learn more</p>
+          </div>
+          <div class="hover-card" data-info="HTML stands for HyperText Markup Language. It is the skeleton of every webpage." data-color="#f5a623">
+            <p class="hover-card-title">HTML</p>
+            <p class="hover-card-sub">Hover to learn more</p>
+          </div>
+          <div class="hover-card" data-info="CSS stands for Cascading Style Sheets. It controls how HTML elements look." data-color="#3ecfa0">
+            <p class="hover-card-title">CSS</p>
+            <p class="hover-card-sub">Hover to learn more</p>
+          </div>
+        </div>
+
+        <!-- Info panel updated by JS on hover -->
+        <div id="info-panel" class="info-panel">
+          <p id="info-text">Hover a card above to see information here.</p>
+        </div>
+      </div>
+
+      <!-- Demo 2: Hover counter -->
+      <div class="demo-section">
+        <p class="demo-label">Hover Counter</p>
+        <div id="hover-zone" class="hover-zone">
+          Move your mouse in and out of this zone
+        </div>
+        <p class="counter-row">
+          Entered: <span id="enter-count" class="stat-num">0</span> times  | 
+          Left: <span id="leave-count" class="stat-num">0</span> times
+        </p>
+      </div>
+
+      <div class="explain-box">
+        <p class="explain-title">CSS :hover vs JavaScript hover</p>
+        <p class="explain-text">
+          <code>CSS :hover</code> — simple style change on the hovered element only.<br/><br/>
+          <code>JS mouseover/mouseout</code> — can change OTHER elements,
+          count events, store data, trigger complex logic.
+          Use CSS for simple visual effects. Use JS when you need more power.
+        </p>
+      </div>
+    </div>
+
+    <script src="team.js"></script>
+  </body>
+</html>

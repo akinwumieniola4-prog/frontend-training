@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: darkblue;
+    width: 500px;
+    height: 100%;
+    border-radius: 15px;
+    padding: 20px;
+}
+.project{
+     color: green;
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    background-color: navy;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px solid green;
+}
+h1{
+    font-size: 35px;
+}
+.container p{
+    color: slateblue;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.measure{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+.measure button {
+    width: 50%;
+    padding: 20px;
+    color: slategray;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid darkslateblue;
+}
+.measure .Metric {
+    background-color: darkslategray;
+    border-color: turquoise;
+color: turquoise;
+}
+input {
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 20px;
+      color: slategray;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid darkslateblue;
+}
+.input p {
+    font-size: 16px;
+}
+.Calculate {
+     width: 95%;
+    padding: 20px;
+    color: slategray;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: turquoise;
+    border-radius: 15px;
+    border: 2px solid darkslateblue;
+}
+.measure-box{
+    background-color: black;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.measure-box h1{
+    font-size: 75px;
+    color: turquoise;
+}
+.Under{
+    width: 100px;
+    padding: 5px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+.Normal{
+     width: 100px;
+    padding: 5px;
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.Over{
+     width: 100px;
+    padding: 5px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.Obese{
+     width: 100px;
+    padding: 5px;
+    background-color: salmon;
+    border-radius: 10px;
+}
+.left{
+    display: flex;
+    color: black;
+}
+#formlar{
+    background-color: black;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+code{
+   color: white;
+}

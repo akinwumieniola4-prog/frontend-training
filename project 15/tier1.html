@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project15</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+         <p class="project">project15</p>
+            <h1>BMI Calculator</h1>
+            <p>Enter your weight and height. JavaScript calculates your BMI and category using a real medical formula.</p>
+        <div class="measure">
+            <button class="Metric">Metric (kg / cm)</button>
+            <button class="Imperial">Imperial (lbs / in)</button>
+        </div>
+        <div class="input">
+            <p>weight (lbs / in)</p>
+            <input class="Imperia" type="text" placeholder="e.g.70">
+            <p>Height (cm)</p>
+            <input class="Height" type="text" placeholder="e.g.175">
+        
+        </div>
+        <button class="Calculate ">Calculate BMI</button>
+        <div class="measure-box">
+            <h1>000</h1>
+            <p>BMI</p>
+            <h2>weight</h2>
+            <P>Consider speaking to a healthcare provider about healthy weight gain.</P>
+            <div class="left">
+                <P class="Under">Under</P>
+<P class="Normal">Normal</P>
+<P class="Over">Over</P>
+<P class="Obese">Obese</P>
+            </div>
+
+        </div>
+        <div id="formular">
+            <p>The BMI formula</p>
+            <p><code>Metric:</code> BMI = weight(kg) ÷ height(m)²</p>
+            <p>Height in cm must be converted to m first: cm ÷ 100</p>
+            <p><code>Imperial:</code>BMI = (weight(lbs) ÷ height(in)²) × 703</p>
+            <p>Math.pow(height, 2) — raises height to the power of 2 (squares it)</p>
+        </div>
+              </div>
+
+       
+              <script src="script.js"></script>
+    </body>
+</html>

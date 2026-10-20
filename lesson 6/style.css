@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2fafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 430px;
+  padding: 45px 35px;
+  border-radius: 25px;
+  box-shadow: 0 5px 25px #ddd;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #08b875;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.logo b {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #999;
+  margin-bottom: 45px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 18px;
+  border: none;
+  background: #eef4ff;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  background: #eef4ff;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  padding-right: 50px;
+}
+
+.password-box button {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #777;
+  font-weight: normal;
+}
+
+.options a{
+   color: #08a96b;
+  font-weight: bold;
+  text-decoration: none;
+}
+.account a {
+  color: #08a96b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #08b875;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-btn:hover {
+ width: 100%;
+  padding: 18px;
+  background: #08b875;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  color: #bbb;
+  margin: 35px 0;
+}
+
+.or span {
+  height: 1px;
+  background: #ddd;
+  flex: 1;
+}
+
+.account {
+  text-align: center;
+  color: #777;
+}
+
+.secure {
+  text-align: center;
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    padding: 35px 25px;
+  }
+}

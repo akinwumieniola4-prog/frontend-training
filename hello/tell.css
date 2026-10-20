@@ -1,0 +1,15 @@
+.box {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+
+}
+
+button{
+    width: 50px;
+    border-radius: 2px;
+    background-color: darkmagenta;
+}
+button:hover{
+    width: 100px;
+}

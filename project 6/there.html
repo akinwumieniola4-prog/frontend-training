@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project 06 — Double Click</title>
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+         PROJECT 06 — DOUBLE CLICK vs SINGLE CLICK
+         CONCEPT: Different event types on the same element
+         =====================================================
+         WHAT STUDENTS LEARN:
+         - Events are more than just "click"
+         - "dblclick" fires on double click
+         - "contextmenu" fires on right click
+         - "mousedown" fires when mouse button is pressed
+         - Same element can listen to MANY different events
+         - Each event can run a DIFFERENT function
+    ===================================================== -->
+ 
+    <div class="card">
+      <span class="project-label">Project 06</span>
+      <h1 class="title">Click Events</h1>
+      <p class="subtitle">
+        The same element can react differently to single click,
+        double click, and right click. Each is a different event.
+      </p>
+ 
+      <!-- The interactive box -->
+      <div id="click-box" class="click-box">
+        <p id="click-instruction">Click me in different ways</p>
+        <p id="click-result" class="click-result">Waiting...</p>
+      </div>
+ 
+      <!-- Event log -->
+      <div class="log-header">
+        <span class="log-title">Event Log</span>
+        <button id="clear-log" class="btn-clear">Clear</button>
+      </div>
+      <div id="event-log" class="event-log">
+        <p class="log-empty">Events will appear here as they fire...</p>
+      </div>
+ 
+      <!-- Separate demos -->
+      <div class="demo-row">
+        <button id="single-btn"  class="btn">Single Click</button>
+        <button id="double-btn"  class="btn btn-amber" ondblclick="logEvent('dblclick on button', 'amber')">Double Click Me</button>
+        <button id="hold-btn"    class="btn btn-green">Hold Me Down</button>
+      </div>
+ 
+      <div class="explain-box">
+        <p class="explain-title">Common Event Types</p>
+        <p class="explain-text">
+          <code>"click"</code> — single click<br/>
+          <code>"dblclick"</code> — double click<br/>
+          <code>"mousedown"</code> — mouse button pressed<br/>
+          <code>"mouseup"</code> — mouse button released<br/>
+          <code>"contextmenu"</code> — right click<br/>
+          <code>"mouseover"</code> — mouse enters element<br/>
+          <code>"mouseout"</code> — mouse leaves element
+        </p>
+      </div>
+    </div>
+ 
+    <script src="theme.js"></script>
+  </body>
+</html>

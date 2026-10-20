@@ -1,0 +1,163 @@
+body {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+.container {
+    max-width: 570px;
+    margin: auto;
+    padding: 40px;
+    background: midnightblue;
+    border-radius: 20px;
+}
+
+.project {
+    display: inline-block;
+    padding: 7px 18px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.description {
+    color: gray;
+}
+
+.preview {
+    background: black;
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+
+.preview p{
+     color: blue;
+    font-weight: bold;
+}
+
+.info h3 {
+    color: blue;
+    font-weight: bold;
+}
+.style-title{
+    color: blue;
+    font-weight: bold; 
+}
+
+.preview h2 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+input {
+    width: 95%;
+    padding: 16px;
+    background: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 13px;
+    margin:  25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.show-btn{
+      background: green;
+    color: white;
+
+}
+
+.uppercase {
+    background: blue;
+    color: white;
+}
+
+.lowercase {
+    background: black;
+    color: gray;
+}
+
+.color {
+    background: orange;
+    color: white;
+}
+
+.bigger {
+    background: green;
+    color: white;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px ;
+    color: gray;
+}
+
+
+
+.greet-box {
+    display: flex;
+    gap: 10px;
+}
+
+.greet-box input {
+    flex: 1;
+}
+
+.greet-box button {
+    width: 40%;
+    background: blue;
+    color: white;
+}
+
+.greeting {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+.info {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background: midnightblue;
+}
+
+.info p {
+    color: gray;
+    line-height: 1.6;
+}
+
+code {
+    color: green;
+    background: black;
+    padding: 3px 6px;
+}

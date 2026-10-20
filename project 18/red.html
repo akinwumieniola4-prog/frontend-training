@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <p class="project">PROJECT 18</p>
+
+        <h1>Interest Calculator</h1>
+
+        <p class="text">
+            Enter a principal, interest rate, and time period.
+            JavaScript calculates both simple and compound interest.
+        </p>
+
+        <div class="inputs">
+
+            <div>
+                <p>PRINCIPAL ($)</p>
+                <input type="number" class="principal">
+            </div>
+
+            <div>
+                <p>RATE (% PER YEAR)</p>
+                <input type="number" class="rate">
+            </div>
+
+            <div>
+                <p>TIME (YEARS)</p>
+                <input type="number" class="time">
+            </div>
+
+        </div>
+
+        <button class="calculate">Calculate Interest</button>
+
+        <div class="result">
+
+            <table>
+
+                <tr>
+                    <th></th>
+                    <th>Simple Interest</th>
+                    <th>Compound Interest</th>
+                </tr>
+
+                <tr>
+                    <td>Principal</td>
+                    <td class="simplePrincipal">$0.00</td>
+                    <td class="compoundPrincipal">$0.00</td>
+                </tr>
+
+                <tr>
+                    <td>Interest Earned</td>
+                    <td class="simpleInterest">$0.00</td>
+                    <td class="compoundInterest">$0.00</td>
+                </tr>
+
+                <tr>
+                    <td>Total Amount</td>
+                    <td class="simpleTotal">$0.00</td>
+                    <td class="compoundTotal">$0.00</td>
+                </tr>
+
+            </table>
+
+            <div class="breakdown">
+
+                <h3>YEAR-BY-YEAR BREAKDOWN</h3>
+
+                <table>
+
+                    <tr>
+                        <th>Year</th>
+                        <th>Simple Interest</th>
+                        <th>Compound Interest</th>
+                    </tr>
+ <tr>
+      <th>Year 1</th>
+      <td class="year-simple-1"></td>
+      <td class="year-compound-1"></td>
+    </tr>
+    <tr>
+      <th>Year 2</th>
+      <td class="year-simple-2"></td>
+      <td class="year-compound-2"></td>
+    </tr>
+    <tr>
+      <th>Year 3</th>
+      <td class="year-simple-3"></td>
+      <td class="year-compound-3"></td>
+    </tr>
+    <tr>
+      <th>Year 4</th>
+      <td class="year-simple-4"></td>
+      <td class="year-compound-4"></td>
+    </tr>
+    <tr>
+      <th>Year 5</th>
+      <td class="year-simple-5"></td>
+      <td class="year-compound-5"></td>
+    </tr>
+    <tr>
+      <th>Year 6</th>
+      <td class="year-simple-6"></td>
+      <td class="year-compound-6"></td>
+    </tr>
+    <tr>
+      <th>Year 7</th>
+      <td class="year-simple-7"></td>
+      <td class="year-compound-7"></td>
+    </tr>
+    <tr>
+      <th>Year 8</th>
+      <td class="year-simple-8"></td>
+      <td class="year-compound-8"></td>
+    </tr>
+    <tr>
+      <th>Year 9</th>
+      <td class="year-simple-9"></td>
+      <td class="year-compound-9"></td>
+    </tr>
+    <tr>
+      <th>Year 10</th>
+      <td class="year-simple-10"></td>
+      <td class="year-compound-10"></td>
+    </tr>
+                    
+                    
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <div class="formulas">
+
+            <h2>THE FORMULAS</h2>
+
+            <p>
+                Simple Interest:
+                <code>I = (P × R × T) / 100</code>
+            </p>
+
+            <p>
+                Total:
+                <code>P + I</code>
+            </p>
+
+            <p>
+                Compound Interest:
+                <code>A = P × (1 + R/100)<sup>T</sup></code>
+            </p>
+
+            <p>
+                <code>Math.pow(base, exponent)</code>
+                — raises base to the power of exponent
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

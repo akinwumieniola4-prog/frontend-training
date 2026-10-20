@@ -1,0 +1,65 @@
+/* PROJECT 07 — HOVER EFFECTS — style.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  min-height: 100vh; background-color: #0f0f1a;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Segoe UI', system-ui, sans-serif; padding: 24px;
+}
+.card {
+  background-color: #1a1a2e; border: 1px solid #2a2a45; border-radius: 16px;
+  padding: 40px 36px; width: 100%; max-width: 520px;
+  display: flex; flex-direction: column; gap: 24px;
+}
+.project-label {
+  font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: #4f8ef7; background-color: rgba(79,142,247,0.12);
+  border: 1px solid #4f8ef7; border-radius: 20px; padding: 4px 14px; width: fit-content;
+}
+.title { font-size: 28px; font-weight: 700; color: #e8e8f0; letter-spacing: -0.5px; }
+.subtitle { font-size: 14px; color: #7a7a9a; line-height: 1.6; }
+.demo-section { display: flex; flex-direction: column; gap: 12px; }
+.demo-label { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #5a5a7a; }
+
+/* Hover cards grid */
+.hover-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.hover-card {
+  background-color: #0d0d1a; border: 2px solid #2a2a45;
+  border-radius: 12px; padding: 20px 12px;
+  text-align: center; cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.hover-card:hover { transform: translateY(-3px); }
+.hover-card-title { font-size: 16px; font-weight: 700; color: #e8e8f0; }
+.hover-card-sub   { font-size: 11px; color: #5a5a7a; margin-top: 4px; }
+
+/* Info panel */
+.info-panel {
+  background-color: #0d0d1a; border: 2px solid #2a2a45;
+  border-radius: 10px; padding: 16px 18px;
+  min-height: 60px; transition: border-color 0.3s ease;
+}
+#info-text { font-size: 14px; color: #7a7a9a; line-height: 1.7; }
+
+/* Hover zone */
+.hover-zone {
+  background-color: #0d0d1a; border: 2px dashed #2a2a45;
+  border-radius: 12px; padding: 32px 20px;
+  text-align: center; font-size: 14px; color: #5a5a7a;
+  cursor: crosshair;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.hover-zone.active {
+  background-color: rgba(79,142,247,0.08);
+  border-color: #4f8ef7; color: #4f8ef7;
+}
+
+.counter-row { font-size: 14px; color: #7a7a9a; text-align: center; }
+.stat-num    { font-size: 18px; font-weight: 700; color: #4f8ef7; font-family: 'Courier New', monospace; }
+
+.explain-box {
+  background-color: rgba(79,142,247,0.06); border: 1px solid rgba(79,142,247,0.2);
+  border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px;
+}
+.explain-title { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #4f8ef7; }
+.explain-text  { font-size: 13px; color: #7a7a9a; line-height: 1.8; }
+code { background-color: #0d0d1a; color: #3ecfa0; padding: 2px 6px; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 12px; }

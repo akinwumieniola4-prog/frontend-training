@@ -1,0 +1,138 @@
+
+body {
+  margin: 0;
+  padding: 35px;
+  background-color: darkblue;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+.card {
+  width: 325px;
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 9px;
+  padding: 24px;
+
+  box-shadow: 1px 5px black ;
+}
+
+.project-label {
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 8px;
+  font-weight: bold;
+  
+}
+
+
+.title {
+  font-size: 18px;
+  margin: 14px ;
+}
+
+
+.subtitle {
+  color: wheat;
+  font-size: 9px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #4b8ef7;
+  color: white;
+
+  font-size: 9px;
+  font-weight: bold;
+
+}
+.btn-green {
+  background-color: #3ed0a0;
+  color: #07140f;
+}
+
+.panel {
+  margin-top: 12px;
+  padding: 14px;
+  background-color:  black;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: 10px;
+}
+.panel-green {
+  border-color: mediumseagreen;
+}
+.panel-title {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+
+.panel-text {
+  color: gray;
+  font-size: 8px;
+  margin:  8px;
+  
+}
+
+
+.panel-list {
+  color: gray;
+  font-size: 8px;
+  padding-left: 14px;
+  
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px ;
+  color: gray;
+  font-size: 7px;
+}
+
+
+.explain-box {
+  margin-top: 13px;
+  padding: 12px;
+  background-color: darkslateblue;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+
+.explain-title {
+  color: blue;
+  font-size: 8px;
+  font-weight: bold;
+  margin: 7px 
+}
+.explain-text {
+  color: gray;
+  font-size: 7px;
+}
+
+code {
+  color: mediumseagreen;
+  background-color: black;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 7px;
+}
+
+.hidden {
+  display: none;
+}
